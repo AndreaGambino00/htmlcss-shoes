@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore {
+    width: 100%;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: yellow;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: calc(350vh / 3);
+    
+}
+
+#rosso {
+    background-color: red;
+}
+
+#verde {
+    background-color: green;
+}
+
+#giallo {
+    background-color: yellow;
+}
+
+
+.scarpe {
+    width: 500px;
+    height: 500px;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.verde {
+    color: green;
+}
+
+nav li {
+    position: relative;
+    display: inline;
+    left:1100px;
+    top: 50px;
+    margin-right: 30px;
+}
+
+nav li a  {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 30px;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+a:hover {
+    box-shadow: 6px 6px 6px;
+}
+
